@@ -1,5 +1,7 @@
-a{
+.link{
     color: var(--black-color);
+    font-weight: 700;
+    transition: var(--transition);
 
     &:hover{
         color: var(--violett-color);
