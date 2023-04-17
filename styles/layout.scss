@@ -23,3 +23,21 @@ header,main,footer{
         width: 1320px;
     }
 }
+
+.header{
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.menu{
+
+    &__body{
+        display: flex;
+        gap: 20px;
+
+        font-size: var(--smaller-font);
+    }
+}
